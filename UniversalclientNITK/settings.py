@@ -61,7 +61,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'UrbanCompanyNITK.urls'
+ROOT_URLCONF = 'UniversalclientNITK.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'UrbanCompanyNITK.wsgi.application'
+WSGI_APPLICATION = 'UniversalclientNITK.wsgi.application'
 
 
 # Database
@@ -139,7 +139,7 @@ USE_TZ = True
 
 WHITENOISE_USE_FINDERS = True
 STATIC_URL = '/static/'
-STATICFILES_DIRS=[os.path.join(BASE_DIR,'UrbanCompanyNITK/static')]
+STATICFILES_DIRS=[os.path.join(BASE_DIR,'UniversalclientNITK/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -169,8 +169,8 @@ DB_USER='root'
 DB_USER_PASSWORD='password'
 DB_HOST='localhost'
 EMAIL_HOST_PASSWORD='UrbanClap123'
-EMAIL_HOST_USER='urbanclapnitk@gmail.com'
-DEFAULT_FROM_EMAIL='urbanclapnitk@gmail.com'
+EMAIL_HOST_USER='UniversalclientNITK@gmail.com'
+DEFAULT_FROM_EMAIL='UniversalclientNITK@gmail.com'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
